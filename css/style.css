@@ -7,9 +7,14 @@ html, body{
 
     margin: 0;
     padding: 0;
+    
+    background-color: maroon;
 }
 header{
     text-align: center;
+    width: 100%;
+    
+    background-color: white;
 }
 
 #nav{
@@ -76,6 +81,17 @@ main{
     text-align:center;
     float:left;
 }
+h3{
+    font-size: 2em;
+    
+    color: white;
+}
+
+p{
+    font-size: 2.8em;
+    color: white;
+}
+
 hr{
     background-color:white;
     
@@ -84,12 +100,14 @@ hr{
     width: 40%;
     
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 30%;
 }
+
+
 footer{
     
     width: 100%;
-    height: 54%;
+    height: 39%;
 
     background-color: maroon;
     float:left;
@@ -121,17 +139,20 @@ footer{
     
     display: flex;
      
-     flex-grow: 1;   
+    flex-grow: 1;   
 }
-.content:nth-child(1){
+.content:nth-child(2){
     
     /*background-color: black;*/
     
     border-right: 1px solid white;
+    border-left: 1px solid white;
     
     display: flex;
      
-     flex-grow: 1;   
+    flex-grow: 1;   
      
-     padding-right: 1;
+    padding-right: 0;
+    padding-left: 1em;
+    
 }
