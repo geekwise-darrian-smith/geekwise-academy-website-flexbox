@@ -1,11 +1,9 @@
 #geekwise-academy-website-flexbox
-##nov-9-2015
-##to do
+##nov-10-2015
+##TOD
 *fix nav
 *center with just flex
 *add ines
 *add words
-
-##TODO
 *add boreders
-*
+*fix nax
